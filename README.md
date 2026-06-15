@@ -4,9 +4,24 @@
 
 This project is a Flask-based Employee Management System deployed on AWS using a 3-tier architecture. The application is hosted on Amazon EC2, and employee data is stored in Amazon RDS MySQL.
 
-## Architecture
+## Architecture Diagram
 
-User Browser → AWS EC2 (Flask Application) → AWS RDS MySQL
+```text
++------------------+
+|  User Browser    |
++------------------+
+          |
+          v
++------------------+
+| AWS EC2 (Flask)  |
++------------------+
+          |
+          v
++------------------+
+| AWS RDS MySQL    |
++------------------+
+```
+
 
 ## Technologies Used
 
